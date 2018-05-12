@@ -37,7 +37,6 @@ function draw() {
     hinder[i].move();
     
     if (135 > hinder[i].x && 100 < hinder[i].x && (player.y + player.h) >= hinder[i].y || 135 > (hinder[i].x + 35) && 100 < (hinder[i].x + 35) && (player.y + player.h) >= hinder[i].y){
-      alert('Game Över');
       alert('Score:' + ' ' + dispScore);
       noLoop();
     }
